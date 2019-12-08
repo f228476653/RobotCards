@@ -11,7 +11,7 @@ function Sroll () {
 const Scroll = (props) => {
     return (
         // render 包在裡面的component
-        <div style = {{ overflow: 'scroll' , border: '2px solid black', height: '500px' }}>
+        <div style = {{ overflow: 'scroll' , border: '5px solid black', height: '800px' }}>
             { props.children } 
         </div>
     ) ;
